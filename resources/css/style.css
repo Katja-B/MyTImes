@@ -1,0 +1,33 @@
+@charset "UTF-8";
+/* CSS Document */
+
+header {
+	display: flex;
+	margin: 5px 30px;
+	font-family: Verdana;
+  	font-size: 14px;
+  	font-weight: bold;
+  	color: MediumAquamarine;
+	justify-content:space-between;
+	align-items:center;
+	}
+	
+#logo {
+	display:flex;
+	align-items: center;
+	justify-content:space-around;
+	}
+
+#mytimes {
+	margin: 10px;
+	}
+	
+nav li {
+	display: inline-block;
+	width: 60px;
+	text-align:center;
+	}
+	
+nav a:link {
+	color: black;
+	}
