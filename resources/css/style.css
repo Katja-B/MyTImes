@@ -31,3 +31,41 @@ nav li {
 nav a:link {
 	color: black;
 	}
+	
+main {
+	display: flex;
+	border: 1px solid black;
+	}
+	
+.column {
+	margin-right: 20px;
+	margin-top: 20px;
+	}	
+	
+.column.large {
+	display: flex;
+	flex-direction:column;
+	width: 630px;
+	}
+
+div {
+	border: 1px solid black;
+	}
+
+.column.medium {
+  display: flex;
+  flex-direction:column;
+  width: 300px;
+}
+
+.column.small {
+  width: 240px;
+  display: flex;
+  flex-direction:column;
+}
+
+#cookie_bite {
+	display:block;
+	height: 100%;
+	width: 100%;
+	}
