@@ -3,13 +3,20 @@
 
 header {
 	display: flex;
-	margin: 5px 30px;
+	padding: 5px 30px;
 	font-family: Verdana;
   	font-size: 14px;
   	font-weight: bold;
   	color: MediumAquamarine;
-	justify-content:space-between;
+	justify-content: space-between;
 	align-items:center;
+	position:fixed;
+	border-bottom: 1px solid black;
+	background-color: white;
+	width: 100%;
+	margin-right: 40px;
+	top: 0;
+	z-index: 1;
 	}
 	
 #logo {
@@ -22,6 +29,10 @@ header {
 	margin: 10px;
 	}
 	
+#navigation {
+	padding-right: 70px;
+	}
+
 nav li {
 	display: inline-block;
 	width: 60px;
@@ -34,7 +45,8 @@ nav a:link {
 	
 main {
 	display: flex;
-	border: 1px solid black;
+	position: relative;
+	top: 80px;
 	}
 	
 .column {
@@ -48,9 +60,6 @@ main {
 	width: 630px;
 	}
 
-div {
-	border: 1px solid black;
-	}
 
 .column.medium {
   display: flex;
@@ -71,6 +80,7 @@ div {
 	}
 	
 p {
+	display: flex;
 	font-family: Georgia;
 	font-size: 17px;
 	color: black;
@@ -105,9 +115,14 @@ h1 {
 	background-repeat: no-repeat; 
 	}
 	
+#monument {
+	display:flex;
+	margin-bottom: 30px;
+	}
+
 #earth {
 	display: flex;
-	margin-top: 15px;
+	margin-top: 30px;
 	background-image:url(../images/img-story-2.png);
 	background-size: full;
 	height: 300px;
@@ -115,7 +130,7 @@ h1 {
 	
 #research {
 	display: flex;
-	margin-top: 15px;
+	margin-top: 30px;
 	background-image:url(../images/img-story-3.png);
 	background-size: full;
 	height: 300px;
@@ -129,4 +144,37 @@ h1 {
 	background-size: full;
 	height: 300px;
 	background-repeat: no-repeat; 
+	}
+	
+.lartricle {
+	display: flex;
+	}
+	
+#orca {
+	flex-direction: column;
+	margin-top: 30px; 
+	margin-bottom: 30px;
+	}
+	
+#burger {
+	flex-direction: column;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	}
+	
+#containerlarger {
+	display:flex;
+	flex-direction:row;
+	}
+
+#container1 {
+	display:flex;
+	flex-direction: column;
+	margin-right: 10px;
+	}
+
+#container2 {
+	display:flex;
+	flex-direction: column;
+	margin-left: 10px;
 	}
