@@ -206,3 +206,52 @@ h1 {
 	border-style: none none solid none;
 	padding: 12px 20px;
 	}
+	
+
+	
+
+	
+footer {
+	display: flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+	position: relative;
+	top: 150px;
+	width: 100%;
+	background-color: MediumAquamarine;
+	margin: auto;
+	font-family: Verdana;
+	font-size: 12px;
+	padding: 100px 30px;
+	}
+
+#fmenu {
+	display: flex;
+	}
+	
+#fmytimes {
+	font-family: Georgia;
+  	font-size: 16px;
+  	font-weight: bold;
+  	color: white;
+	padding: 2px 20px;
+	border-right: 2px solid white;
+	}
+	
+footer li {
+	display: inline-block;
+	width: 60px;
+	text-align:center;
+	padding-top: 5px;
+	}
+	
+footer p {
+	text-align:center;
+	font-size: 12px;
+	font-family: Verdana;
+	}
+	
+footer a:link {
+	color: black;
+	}
